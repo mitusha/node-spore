@@ -1,16 +1,25 @@
-{ "name": "spore"
-, "description": "Generic ReST client and server. Implementation of spore in node."
-, "version": "0.1.6"
-, "main" : "./lib/spore"
-, "engines": {
-  "node": ">= 0.4.0"
-}
-, "devDependencies": {
-  "connect": ""
-}
-, "repository": { "type": "git"
-                 , "url": "https://github.com/francois2metz/node-spore.git"
-                }
-, "author": "François de Metz <francois@2metz.fr>"
-, "licenses": [{ "type": "BSD"}]
+{
+  "name": "spore",
+  "description": "Generic ReST client and server. Implementation of spore in node.",
+  "version": "0.1.6",
+  "main": "./lib/spore",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "devDependencies": {
+    "connect": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francois2metz/node-spore.git"
+  },
+  "author": "François de Metz <francois@2metz.fr>",
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ],
+  "dependencies": {
+    "wreck": "^5.3.0"
+  }
 }
